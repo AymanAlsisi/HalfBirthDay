@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+.bar{
+  height: 10%;
+  min-width: 70%;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 15%;
+  top: 40%;
+  background-color: #25252525;
+  border-radius: 10px;
+}
+.loading-text{
+  margin: auto;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 20px;
+}
+.progress{
+  height: 50px;
+  animation-name: animate;
+  background: black;
+  position: absolute;
+  z-index: 1;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  justify-self: start;
+  overflow: hidden;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+@keyframes animate {
+  0%   {width: 0%;}
+  /* 25%  {width: 10%;}
+  50%  {width: 40%;}
+  75%  {width: 50%;} */
+  100% {width: 100%;}
+}
