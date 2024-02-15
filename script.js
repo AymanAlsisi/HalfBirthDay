@@ -15904,7 +15904,7 @@ var x = setInterval(function () {
                         Remember, even if you have to get older, you never have to grow up!
                         Happy YOU day!
                         Remember to live in the moment on this special day.</p>
-                        <p>بيبي يادوب 17 و نص (إيموجي حق الخاتي يده في خشمه و بضحك)<p/>`;
+                        <p>يادوب 17 و 6 شهور يا شافعة(إيموجي حق الخاتي يده في خشمه و بضحك)<p/>`;
 
                 document.querySelector('.title').innerHTML = "Happy half Birthday!";
                 document.querySelector('.title').style.fontSize = "260%";
